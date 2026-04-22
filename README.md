@@ -1,138 +1,57 @@
-🛍️ Customer Shopping Behavior Analysis
+## 📌 Project Overview
+This project analyzes customer shopping behavior using transactional retail data to uncover patterns in purchases, customer segmentation, and key business drivers.
+
+## ❓ Business Problem
+A retail company wants to understand:
+- What drives customer purchases?
+- Which customers are most valuable?
+- How to improve engagement and retention?
+
+## 🎯 Objective
+To analyze customer behavior and identify key revenue drivers to improve marketing strategies and customer retention.
+
+## 📊 Dataset
+- 3,900 customer transactions
+- 18 features including demographics, purchase patterns, and product categories
+
+- <img width="896" height="489" alt="Screenshot 2026-04-22 214840" src="https://github.com/user-attachments/assets/4faf8caf-af57-4cd4-b3f2-df870a13513f" />
 
 
-📌 Executive Summary
+## 📊 Dashboard
+An interactive Power BI dashboard was developed to visualize:
+- Revenue trends
+- Customer segments
+- Product performance
+- Impact of discounts
 
-In a competitive retail environment, understanding customer behavior is essential for improving revenue and long-term customer loyalty.
+## 🧹 Data Preparation (Python)
+- Handled missing values (Review Rating)
+- Feature Engineering:
+  - Created Age Groups
+  - Calculated Purchase Frequency
+- Cleaned and standardized dataset
+- Loaded data into PostgreSQL
 
-This project presents an end-to-end data analytics solution that transforms raw transactional data into actionable insights. By analyzing 3,900 customer transactions, it identifies key patterns in purchasing behavior, customer segmentation, and revenue drivers.
+## 🗄️ SQL Analysis
+- Revenue by Gender
+- High-value Discount Users
+- Customer Segmentation
+- Subscription Impact
+- Top Products & Categories
 
-The findings support businesses in optimizing marketing strategies, customer engagement, and product positioning.
+## 💡 Key Insights
+- Discounts increase sales but may reduce profit margins  
+- Loyal customers contribute the highest revenue  
+- Subscribers have higher average spending  
+- Some products are highly dependent on discounts  
 
+## 🚀 Business Recommendations
+- Improve subscription benefits  
+- Build loyalty programs  
+- Optimize discount strategies  
+- Focus on high-performing products  
 
-
-
-❓ Business Problem
-
-The company observed changing customer behavior across demographics, product categories, and sales channels but lacked clarity on key drivers of purchase decisions.
-
-
-🎯 Core Question
-
-How can customer data be leveraged to identify trends, improve engagement, and optimize business strategies?
-
-
-
-🎯 Objectives
-Identify high-value customer segments
-Analyze purchase drivers (discounts, reviews, seasonality)
-Evaluate the impact of subscriptions on revenue
-Discover top-performing products and categories
-
-
-
-📊 Dataset Overview
-Records: 3,900
-Features: 18
-Missing Values: 37 (Review Rating)
-
-Data includes:
-
-Customer demographics (Age, Gender, Location, Subscription)
-Purchase details (Product, Category, Amount, Season)
-Behavioral attributes (Discounts, Frequency, Reviews, Shipping Type)
-
-
-
-
-🧹 Data Engineering (Python)
-Cleaned and validated dataset
-Imputed missing values using category-wise median
-Standardized column names
-Created features: age_group, purchase_frequency_days
-Removed redundant fields and loaded data into PostgreSQL
-
-
-
-
-🗄️ Data Analysis (SQL)
-
-Performed structured analysis to extract business insights:
-
-Revenue analysis by gender
-Customer segmentation (New, Returning, Loyal)
-Subscription vs non-subscription behavior
-Discount impact on purchasing
-Top products and category performance
-Revenue contribution by age group
-
-
-
-
-📈 Dashboard (Power BI)
-
-Developed an interactive dashboard to visualize:
-
-Key KPIs (Revenue, Orders, Average Spend)
-Customer segments and behavior
-Product performance and trends
-Impact of discounts and subscriptions
-
-
-
-
-🔍 Key Insights
-Loyal customers contribute the highest revenue
-Subscribers exhibit higher spending behavior
-Discounts increase sales but may reduce margins
-Some products are highly dependent on discounts
-Certain customer segments and age groups drive significant revenue
-
-
-
-
-
-🚀 Strategic Recommendations
-Enhance subscription benefits to improve retention
-Implement loyalty programs for repeat customers
-Optimize discount strategies to balance revenue and margins
-Promote high-performing and top-rated products
-Apply targeted marketing based on customer segments
-
-
-
-🛠️ Tech Stack
-Python (Data Cleaning & Feature Engineering)
-PostgreSQL (Data Analysis)
-Power BI (Visualization)
-GitHub (Version Control)
-
-
-
-📁 Project Structure
-customer-shopping-analysis/
- ┣ data/
- ┣ notebooks/
- ┣ sql/
- ┣ dashboard/
- ┣ scripts/
- ┗ README.md
-
-
-
-
-🎯 Business Impact
-
-This project demonstrates how data analytics can enable:
-
-Improved customer retention
-Better decision-making
-Revenue optimization
-Stronger business strategies
-
-
-
-👩‍💻 Author
-
-Riya Pandey
-🎓 BCA Student | 📊 Aspiring Data Analyst
+## 🛠️ Tech Stack
+- Python (Pandas, NumPy)
+- PostgreSQL
+- Power BI
